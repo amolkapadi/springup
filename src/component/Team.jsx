@@ -4,6 +4,7 @@ function Team(){
     return(
         <div className='container'>
             <h1>Team Page </h1>
+            
         </div>
     )
 }

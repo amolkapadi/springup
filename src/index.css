@@ -11,6 +11,34 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+.navbar-light .navbar-nav .nav-link{
+  color: white!important;
+  font-size: 18px;
+}
+.navbar-light .navbar-brand{
+  color: white;
+  font-size: 30px;
+}
+.navbar.active{
+  background-color: black!important;
+  /* opacity: 0.6!important; */
+}
+header{
+  height: 100vh;
+  min-height: 400px;
+  background-size: cover;
+  background-image: url("../public/assets/img/Main.png");
+}
+.bg-dark{
+  background: white !important;
+}
+/*media Query*/
+/* @media only screen and (max-width:600px){
+  .navbar-collapse {
+      background: white;
+  }
+} */
+
 
 /**main img**/
 .img-responsive {
