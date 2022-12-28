@@ -5,16 +5,20 @@ import Team from './component/Team'
 import Locations from './component/Locations'
 import Customer from "./component/Customer";
 import Footer from "./page/Footer";
+import Whyus from "./component/Whyus";
 function App() {
   return (
   <>
+
+    
     <Header />
-    <Model />
     <Services />
-    <Team />
+    <Whyus />
+    <Model />
+    {/* <Team />
     <Locations />
-    <Customer />
-    <Footer />
+    <Customer /> */}
+    <Footer /> 
   </>
   );
 }
