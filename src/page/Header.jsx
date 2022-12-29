@@ -14,16 +14,19 @@ function Header() {
         }
     };
     window.addEventListener('scroll',changeBackground)
+
+    
     return (
-        <>
+        <>  
             <header>
+              
             <div className='main-text'>
                <h1>Digital Engineering through</h1>
                 <h1>Value Driven. <br />Customer Focused.<br /> Learn Thinking!</h1>
                </div>
             </header>
           
-            <nav className={navbar ? "navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent active" : "navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent"}>
+            <nav className={navbar ? "navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent active " : "navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent "}>
                 <div className="container">
                     <NavLink className="navbar-brand" to="/">
                         <img alt='logo' src="assets/img/SpringupLabs_Logo.png" style={{ height: "30px" }} className='img-fluid' />
@@ -34,22 +37,22 @@ function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Model</NavLink >
+                                <a className="nav-link"  >Model</a >
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Services</NavLink >
+                                <a className="nav-link" id='#services' >Services</a >
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Team</NavLink >
+                                <a className="nav-link" >Team</a >
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Locations</NavLink >
+                                <a className="nav-link" >Locations</a >
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Customer</NavLink >
+                                <a className="nav-link" >Customer</a >
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="#">Contact</NavLink >
+                                <NavLink className="nav-link" >Contact</NavLink >
                             </li>
                         </ul>
                     </div>

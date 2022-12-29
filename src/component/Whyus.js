@@ -24,6 +24,7 @@ function Whyus() {
                         <p><b><i class="bi bi-star-fill"></i> Alignment to</b> Customer Policies, Procedures, and Culture. </p>
                     </div>
                 </div>
+                
                 <div className='row py-3'>
                     <div class="accordion accordion-flush w-100 mx-auto" id="accordionFlushExample">
                         <div class="accordion-item shadow-lg">

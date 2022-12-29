@@ -6,11 +6,11 @@ import Locations from './component/Locations'
 import Customer from "./component/Customer";
 import Footer from "./page/Footer";
 import Whyus from "./component/Whyus";
+import Particle from "./component/Particle";
 function App() {
   return (
   <>
 
-    
     <Header />
     <Services />
     <Whyus />
@@ -19,6 +19,8 @@ function App() {
     <Locations />
     <Customer /> */}
     <Footer /> 
+<Particle />
+
   </>
   );
 }
