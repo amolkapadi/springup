@@ -10,16 +10,16 @@ function Model2() {
         <>
             <div className="container py-5">
                 <h1 className="text-center">Offshore Office: This is not outsourcing or offshoring</h1>
-                <div class="row row-cols-1 row-cols-md-3  " >
+                <div className="row row-cols-1 row-cols-md-3" >
                     {menuModel2.map((result) => (
-                        <div class="col">
-                            <div class="card ModelCard" data-aos="zoom-in-down" >
+                        <div className="col" key={result.id}>
+                            <div className="card ModelCard" data-aos="zoom-in-down" >
                                 <div className="Modelicon">
-                                    <i class={result.icon}></i>
+                                    <i className={result.icon}></i>
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title text-center fw-bold">{result.title}</h5>
-                                    <p class="card-text">{result.des} </p>
+                                <div className="card-body">
+                                    <h5 className="card-title text-center fw-bold">{result.title}</h5>
+                                    <p className="card-text">{result.des} </p>
                                 </div>
                             </div>
                         </div>

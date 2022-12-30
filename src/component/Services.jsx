@@ -1,13 +1,16 @@
 import React from 'react';
 import Challenge from './Challenge';
 
+ import Services1 from '../assets/img/newproduct1.png'
+ import Services2 from '../assets/img/services2.png'
+ import Services3 from '../assets/img/cloud3.png'
+
 function Services() {
     return (
-        <div className='container py-5' id='services'>
+        <section id='services' className=' py-5'>
+                 <div className='container py-5' >
             <h1 className="text-center">Our Services</h1>  
             <div className='underLine'></div>
-
-
             <div className='row py-5'>
                 <div className='col-md-6'>
                     <h3>New Product Development</h3>
@@ -25,14 +28,14 @@ function Services() {
                     <p><b>Technology products :</b> Tackling complex engineering challenges and large-scale development needs of our technology clients’ key offerings</p>
                 </div>
                 <div className='col-md-6'>
-                    <img src='assets/img/newproduct1.png' className='img-fluid' alt='main-img' />
+                    <img src={Services1} className='img-fluid' alt='main-img' />
                 </div>
             </div>
 
 
             <div className='row py-3'>
                 <div className='col-md-6'>
-                    <img src='assets/img/services2.png' className='img-fluid' alt='main-img' />
+                    <img src={Services2} className='img-fluid' alt='main-img' />
                 </div>
                 <div className='col-md-6'>
                     <h3>Product Support Services</h3>
@@ -42,11 +45,11 @@ function Services() {
                         investments in their new product portfolios which are paid for by the improved financial performance of their mature products.</p>
                     <p><b>SpringUp Lab’s Solution:</b></p>
                     <div className='supportBx'>
-                        <p><i class="bi bi-arrow-right-short"></i> Professional Services</p>
-                        <p><i class="bi bi-arrow-right-short"></i> L1-L4 Technical Support</p>
-                        <p><i class="bi bi-arrow-right-short"></i> 24x7 Technical Support</p>
-                        <p><i class="bi bi-arrow-right-short"></i> Bug Fixing & Feature Development</p>
-                        <p><i class="bi bi-arrow-right-short"></i> Customer Onboarding Cycle</p>
+                        <p><i className="bi bi-arrow-right-short"></i> Professional Services</p>
+                        <p><i className="bi bi-arrow-right-short"></i> L1-L4 Technical Support</p>
+                        <p><i className="bi bi-arrow-right-short"></i> 24x7 Technical Support</p>
+                        <p><i className="bi bi-arrow-right-short"></i> Bug Fixing & Feature Development</p>
+                        <p><i className="bi bi-arrow-right-short"></i> Customer Onboarding Cycle</p>
                     </div>
                 </div>
 
@@ -60,21 +63,23 @@ function Services() {
                         Our calibrated approach helps our customers to migrate from Legacy Ecosystem to Modern Cloud environment. </p>
                     <p><b>Cloud Analysis and Migration</b></p>
                     <div className='supportBx'>
-                    <p><i class="bi bi-arrow-right-short"></i> Establishing the right cloud architecture</p>
-                    <p><i class="bi bi-arrow-right-short"></i> Determining areas of your existing architecture that should be migrated or phased out</p>
-                    <p><i class="bi bi-arrow-right-short"></i> Building transition roadmaps that ensure adoption</p>
-                    <p><i class="bi bi-arrow-right-short"></i> Providing clear ROI and TCO </p>
-                    <p><i class="bi bi-arrow-right-short"></i> Azure, AWS, Google Cloud Support & Migration</p>
-                    <p><i class="bi bi-arrow-right-short"></i> O365 Migration & Support</p>
+                    <p><i className="bi bi-arrow-right-short"></i> Establishing the right cloud architecture</p>
+                    <p><i className="bi bi-arrow-right-short"></i> Determining areas of your existing architecture that should be migrated or phased out</p>
+                    <p><i className="bi bi-arrow-right-short"></i> Building transition roadmaps that ensure adoption</p>
+                    <p><i className="bi bi-arrow-right-short"></i> Providing clear ROI and TCO </p>
+                    <p><i className="bi bi-arrow-right-short"></i> Azure, AWS, Google Cloud Support & Migration</p>
+                    <p><i className="bi bi-arrow-right-short"></i> O365 Migration & Support</p>
                 </div>
                 </div>
                 <div className='col-md-6'>
-                    <img src='assets/img/cloud3.png' className='img-fluid' alt='main-img' />
+                    <img src={Services3} className='img-fluid' alt='main-img' />
                 </div>
             </div>
             
             <Challenge />
         </div>
+        </section>
+       
     )
 }
 export default Services;

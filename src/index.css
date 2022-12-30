@@ -17,24 +17,27 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-link{
-  color: black!important;
+  color: white!important;
   font-size: 18px;
 }
 .navbar-light .navbar-brand{
-  color: black!important;
+  color: white!important;
   font-size: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color:  rgb(58,190,157) !important;
 }
 
 .navbar.active{
   color: black!important;
-background-color: white!important; 
+background-color: black!important; 
 }
 header{
   background-position: 88% 33%;
   height: 100vh;
   min-height: 400px;
   background-size: cover;
-  background-image: url("../public/assets/img/Main.png");
+  background-image: url("assets/img/Main.png");
 }
 .bg-dark{
   background: white !important;
@@ -134,6 +137,9 @@ color: white;
 }
 .fw-bold{
   font-size: 18px;
+}
+.model-img2{
+  border-radius: 100px!important;
 }
 /***Start icon****/
 .bi-star-fill{

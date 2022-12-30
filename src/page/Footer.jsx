@@ -12,8 +12,8 @@ function Footer() {
                             <p>Get Connected With Social Network</p>
                         </div>
                         <div className='col-md-4 d-flex justify-content-end'>
-                            <i class="bi bi-linkedin me-3"></i>
-                            <i class="bi bi-envelope-fill me-3"></i>
+                            <i className="bi bi-linkedin me-3"></i>
+                            <i className="bi bi-envelope-fill me-3"></i>
                         </div>
                     </div>
                 </div>
@@ -41,10 +41,10 @@ function Footer() {
 
                         <div className='col-md-6'>
                             <h6 className='fw-bold'>Location</h6>
-                            <p> <i class="bi bi-buildings-fill"> </i> <b>India :</b> Lane   3, near VIJAY SALES, Pallod Farms, Baner, Pune, Maharashtra 411045</p>
-                            <p> <i class="bi bi-buildings-fill"> </i> <b>US Sales Office :</b> 1334 Brittmoore Rd Suite B Houston, TX 77043</p>
-                            <p> <i class="bi bi-buildings-fill"> </i> <b>Norway Sales Office :</b> RØSLYNGVEIEN 2B, 0788 OSLO, NORWAY</p>
-                            <p> <i class="bi bi-buildings-fill"> </i> <b>UK Sales Office :</b> Unit 26, Tesla Court, Innovation Way, Lynchwood, Peterborough, PE2 6FL.</p>
+                            <p> <i className="bi bi-buildings-fill"> </i> <b>India :</b> Lane   3, near VIJAY SALES, Pallod Farms, Baner, Pune, Maharashtra 411045</p>
+                            <p> <i className="bi bi-buildings-fill"> </i> <b>US Sales Office :</b> 1334 Brittmoore Rd Suite B Houston, TX 77043</p>
+                            <p> <i className="bi bi-buildings-fill"> </i> <b>Norway Sales Office :</b> RØSLYNGVEIEN 2B, 0788 OSLO, NORWAY</p>
+                            <p> <i className="bi bi-buildings-fill"> </i> <b>UK Sales Office :</b> Unit 26, Tesla Court, Innovation Way, Lynchwood, Peterborough, PE2 6FL.</p>
 
 
                         </div>

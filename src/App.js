@@ -12,9 +12,11 @@ function App() {
   <>
 
     <Header />
+  
+    <Model />
     <Services />
     <Whyus />
-    <Model />
+    <Customer />
     {/* <Team />
     <Locations />
     <Customer /> */}
